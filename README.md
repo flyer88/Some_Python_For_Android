@@ -1,6 +1,6 @@
 ## `Android` 开发中用到的一些脚本
 
-### 1.log_to_proguard_rules
+### 1. log_to_proguard_rules
 此脚本用于处理，`Android Studio` 开启混淆后，输出的 `log` 信息，过滤大部分内容，将其转为混淆规则
 此脚本只能过滤大部分信息，不能处理所有的
 
@@ -11,7 +11,9 @@
   generated_info = "/Users/flyer/Desktop/generate_log_info"
 ```
 
-### 2.translate_string_to_R$String 
+--------------
+
+### 2. translate_string_to_R$String 
 此脚本用于批量替换 `android` 项目下 `java` 代码中中文字符串的硬编码，并同意替换成 R.string.xx
 
 
@@ -26,7 +28,8 @@
 ```
 
 
+---------------
 
-####最后
+###最后
 脚本问题多多，python写的很菜
 
